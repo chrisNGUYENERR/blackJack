@@ -48,7 +48,7 @@ function dealGame () {
     for (let i = 0; i < 1; i++){
         let cardImg = document.createElement("img");
         let hiddenCard = deck.shift();
-        cardImg.src = "./images/back.png";
+        cardImg.src = "./images/backCard.png";
         dealerPoints += calculatePoints(hiddenCard);
         document.getElementById("dealer-hand").append(cardImg);
     }
